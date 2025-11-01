@@ -1,0 +1,24 @@
+{
+  "name": "quickbite-campus",
+  "version": "1.0.0",
+  "description": "Campus food ordering system",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": ["campus", "food", "ordering"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "better-sqlite3": "^9.2.2",
+    "body-parser": "^1.20.2",
+    "uuid": "^9.0.1",
+    "qrcode": "^1.5.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
+
